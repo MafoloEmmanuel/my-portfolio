@@ -1,17 +1,8 @@
 
-html,
-body {
- float: left;
-  
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  font-size: 100%;
-}
+
 img {
     width: 20%;
-    padding: 10px;
+    padding: 20px;
     float: left;
 }
 .clearfix {
@@ -30,27 +21,33 @@ ul {
     list-style: none;
 }
 .info {
-    padding: 50px;
+    padding: 20px;
+    text-align: start;
 
 }
 .contacts { 
     padding: 15px;
 }
 .work {
-    padding: 10px;    
+    padding: opx;   
 }
-.buttons {
-    text-align: end;
+.footer {
+    text-align: start;
+    padding: 5px;
 }
-
-
 @media screen and (max-width: 800px){
     .container {
         display: block;
         width: 100%;
     }
-
     .work {
         display: block;
+        width: 100%;
+    }
+    .footer {
+        display: block;
+    }
+    img {
+        width: 80%;
     }
 }
