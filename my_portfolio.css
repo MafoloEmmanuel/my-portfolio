@@ -1,15 +1,5 @@
 
-html,
-body {
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  font-size: 100%;
-  width: 100%;
-  background-color: darkgray;
 
-}
 img {
     width: 20%;
     padding: 10px;
@@ -25,12 +15,14 @@ img {
     margin: auto;
     box-sizing: border-box;
     align-items: stretch;
+    width: 100%;
 }
 ul {
     list-style: none;
 }
 .info {
     background-color:turquoise;
+    padding: 20px;
 
 }
 .contacts {
@@ -42,8 +34,8 @@ ul {
     background-color: violet;  
 }
 @media screen and (max-width: 800px){
-    .header {
-        flex-wrap: wrap;
+    .container {
+        display: block;
         width: 100%;
     }
 }
