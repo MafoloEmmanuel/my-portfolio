@@ -1,5 +1,14 @@
 
-
+html,
+body {
+ float: left;
+  
+  margin: 0;
+  padding: 0;
+  left: 0;
+  top: 0;
+  font-size: 100%;
+}
 img {
     width: 20%;
     padding: 10px;
@@ -10,7 +19,7 @@ img {
     overflow: auto;
 }
 .container {
-    background-color: cornflowerblue;
+    
     display: flex;
     margin: auto;
     box-sizing: border-box;
@@ -21,21 +30,27 @@ ul {
     list-style: none;
 }
 .info {
-    background-color:turquoise;
-    padding: 20px;
+    padding: 50px;
 
 }
-.contacts {
-    background-color: thistle;
+.contacts { 
     padding: 15px;
 }
 .work {
-    padding: 50px;
-    background-color: violet;  
+    padding: 10px;    
 }
+.buttons {
+    text-align: end;
+}
+
+
 @media screen and (max-width: 800px){
     .container {
         display: block;
         width: 100%;
+    }
+
+    .work {
+        display: block;
     }
 }
