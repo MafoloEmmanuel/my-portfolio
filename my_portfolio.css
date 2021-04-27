@@ -1,9 +1,46 @@
+.heading {
+    text-align: center;
+    background-color: dodgerblue;
+    font-size: larger;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.front-content {
+    display: flex;
+    padding: 1px;
+    justify-content: flex-start;
+    text-align: start;
+}
+.fronts {
+    padding: 6px ;
+    width: 50%;
+}
+.front {
+    text-align: center;
+}
+.back {
+    text-align: center;
 
-
-img {
+}
+h3 {
+    background-color: dodgerblue;
+    text-align: center;
+}
+button {
+    text-align: left;
+    float: right;
+}
+.img1 {
     width: 20%;
     padding: 20px;
     float: left;
+}
+.img3 {
+    width: 40%;
+}
+.img4 {
+    width: 45%;
 }
 .clearfix {
     zoom: 1;
@@ -11,10 +48,8 @@ img {
 }
 .container {
     
-    display: flex;
     margin: auto;
     box-sizing: border-box;
-    align-items: stretch;
     width: 100%;
 }
 ul {
@@ -39,6 +74,7 @@ ul {
     .container {
         display: block;
         width: 100%;
+
     }
     .work {
         display: block;
@@ -46,8 +82,16 @@ ul {
     }
     .footer {
         display: block;
+        width: 100%;
+
     }
-    img {
-        width: 80%;
+    .img1 {
+        width: 100%;
+    }
+    .front-content {
+        display: block;
+        width: 100%;
+
+        
     }
 }
