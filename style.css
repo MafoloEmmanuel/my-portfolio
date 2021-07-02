@@ -1,0 +1,54 @@
+.profile{
+    text-align: center;
+    display: flex
+}
+.container{
+    margin: 0 auto;
+    position: relative;
+    display: block;   
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ button{
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+.the-buttons{
+    float: right;
+    padding: 5px;
+}
+.link{
+    border: 1px solid lightseagreen;
+}
+.project-button{
+    border: 1px solid  rgb(74, 160, 241);;
+    border-radius: 12px;
+    background-color: rgb(74, 160, 241);
+    padding: 10px;
+}
+.projects{
+    display: flex;
+}
+
+ img{
+    border-radius: 50%;
+    width: 80%;
+}
+#view-link{
+    border: none;
+    border-radius: 10;
+    background-color: rgb(38, 144, 243);
+    padding: 5px
+}
+h2{
+    text-align: center;
+}
+h4{
+    background-color: rgb(38, 144, 243);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 200px;
+}

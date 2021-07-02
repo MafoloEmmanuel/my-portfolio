@@ -1,0 +1,27 @@
+.container{
+    margin: 0 auto;
+    background-color: rgb(243, 131, 146);
+    padding: 1px;
+    
+}
+.details{
+    padding: 1px;
+    text-align: center;
+}
+.about{
+    padding: 1px;
+    text-align: center;
+    
+}
+@media (max-width:800px){
+    .details{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .about{
+        display: flex;
+        align-content: center;
+        align-items: center;
+    }
+}
