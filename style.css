@@ -11,7 +11,8 @@ body{
 font-family:Verdana, Geneva, Tahoma, sans-serif
 }
  button{
-    background-color: white;
+    background-color: rgb(38, 144, 243);
+   
     color: black;
     border-radius: 10px;
 }
@@ -40,7 +41,7 @@ font-family:Verdana, Geneva, Tahoma, sans-serif
 }
  img{
     border-radius: 50%;
-    width: 100%;
+    width: 80%;
 }
 #view-link{
     border: none;
