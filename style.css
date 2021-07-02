@@ -8,7 +8,7 @@
     display: block;   
 }
 body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family:Verdana, Geneva, Tahoma, sans-serif
 }
  button{
     background-color: white;
@@ -31,7 +31,13 @@ body{
 .projects{
     display: flex;
 }
-
+.footer{
+    background-color: rgb(38, 144, 243);
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-family: cursive;
+}
  img{
     border-radius: 50%;
     width: 80%;
