@@ -59,3 +59,38 @@ h4{
     border: 1px solid blue;
     border-radius: 200px;
 }
+.fa {
+    padding: 10px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  .fa-facebook{
+      background-color:  rgb(38, 144, 243);
+      color: black;
+  }
+  .fa-twitter{
+      background-color:  rgb(38, 144, 243);
+      color: black;
+
+  }
+  .fa-github{
+      background-color:  rgb(38, 144, 243);
+      color: black;
+
+  }
+  .fa-linkedin{
+      background-color:  rgb(38, 144, 243);
+      color: black;
+
+  }
+  .fa-instagram{
+    background-color:  rgb(38, 144, 243);
+    color: black;
+  }
